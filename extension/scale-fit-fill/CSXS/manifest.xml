@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="11.0" ExtensionBundleId="com.local.scaleFitFill" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Scale Fit Fill">
+  <ExtensionList>
+    <Extension Id="com.local.scaleFitFill.panel" Version="1.0.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="ILST" Version="[16.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="11.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.local.scaleFitFill.panel">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index.html</MainPath>
+          <ScriptPath>./jsx/host.jsx</ScriptPath>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Scale Fit Fill</Menu>
+          <Geometry>
+            <Size>
+              <Width>96</Width>
+              <Height>48</Height>
+            </Size>
+            <MinSize>
+              <Width>84</Width>
+              <Height>44</Height>
+            </MinSize>
+            <MaxSize>
+              <Width>160</Width>
+              <Height>72</Height>
+            </MaxSize>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
